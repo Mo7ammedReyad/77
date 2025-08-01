@@ -1,3 +1,7 @@
-name = "remote-cmd"
-compatibility_date = "2024-01-01"
+nname = "remote-cmd-worker"  # Replace with your worker name
 main = "index.ts"
+compatibility_date = "2025-07-31"
+workers_dev = true
+
+[build]
+command = "npm install"

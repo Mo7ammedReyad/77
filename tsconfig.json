@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "lib": ["es2022", "dom"],
-    "module": "esnext",
-    "target": "es2022",
-    "moduleResolution": "bundler",
+    "target": "ES2020",
+    "module": "ES2020",
     "strict": true,
-    "jsx": "preserve",
-    "types": []
-  }
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["@cloudflare/workers-types"]
+  },
+  "include": ["index.ts"]
 }

@@ -1,8 +1,18 @@
 {
   "name": "remote-cmd-worker",
-  "type": "module",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "deploy": "echo 'Deploy via Cloudflare Dashboard'"
+  },
   "dependencies": {
-    "hono": "^4.2.7",
-    "nanoid": "^4.0.2"
+    "hono": "^4.5.3",
+    "@hono/cloudflare-workers": "^0.0.1",
+    "firebase": "^10.12.4",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240729.0",
+    "typescript": "^5.5.4"
   }
 }
