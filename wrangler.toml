@@ -1,0 +1,5 @@
+name = "cmd-controller"
+main = "index.ts"
+compatibility_date = "2024-01-01"
+
+[env.production]
